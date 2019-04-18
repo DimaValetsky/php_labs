@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td .fa, td .fas {
+    color: #fd7e14;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+form p {
+    margin-top: 15px;
+}
+form input {
+    padding: 5px;
+}
+
+table {
+    width: calc(100% - 40px);
+    border-collapse: collapse;
+    margin: 20px;
+}
+tr {
+    width: 100%;
+    font-size: 15px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey
+}
+td, th {
+    padding: 0px 10px;
+    text-align: left;
+
+}
+
+th {
+    padding: 10px;
+    color: dodgerblue;
+    background-color: lightblue
+}
+
+.al-center {
+    text-align: center;
+}
+
+.flex-container {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.table-area {
+    width: 100%;
+}
+
+a.buttons {
+    display: block;
+    text-align: center;
+    width: calc(100% - 20px);
+    margin: 10px 20px;
+    font-size: 14px;
+    color: white;
+    border-radius: 3px;
+    padding: 7px 0px;
+    text-decoration: none;
+}
+
+a.mini {
+    width: calc(40% - 20px);
+}
+
+a.green {
+    background-color: rgb( 43, 153, 91 );
+    border: 1px solid rgb( 33, 126, 74 );
+}
+
+a.green:hover {
+    background-color: rgb( 75, 183, 141 );
+}
+
+a.red {
+    background-color: crimson;
+    border: 1px solid darkred;
+}
+
+a.red:hover {
+    background-color: lightcoral;
+}
+
+.manipulate-area {
+    margin-left: 20px;
+    width: 50%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
